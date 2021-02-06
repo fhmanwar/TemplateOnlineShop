@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EISFERAN'S</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+
+		<nav class="nav" role="navigation" id="myTopnav">
+			<div class="top-menu">
+				<div class="row">
+					<div class="col-25">
+						<div id="logo">
+                            <a href="index.html"><img src="img/logo.png" alt="" width="132px" height="32px"></a>
+						</div>
+					</div>
+					<div class="col-75">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="product.html">Product</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li class="active"><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+        <div class="banner-other">
+            <div class="center">
+                <div class="row">
+                    <p>Contact Us</p>
+                </div>
+            </div>
+		</div>
+
+		<div class="container">
+            <div class="center">
+                <div class="card-container">
+                    <table class="mytable">
+                        <tr>
+                            <td>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1716.5620481732192!2d106.78294339374465!3d-6.201664344717623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f2ff138f214b056!2sBinus%20University!5e0!3m2!1sid!2sid!4v1607717355605!5m2!1sid!2sid" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </td>
+                            <td>
+                                <ul class="address">
+                                    <li>Jl. Rw. Belong, RT.3/RW.6, Sukabumi Utara</li>
+                                    <li>Kec. Kb. Jeruk, Kota Jakarta Barat, DKI Jakarta 11540</li>
+                                    <li>Telp: (021)-5345830</li>
+                                </ul>
+                                <ul class="sosmed">
+                                    <li>
+                                        <a href="https://www.facebook.com/hizkia.yapen.7">
+                                            <img src="img/facebook.png" alt="" width="64" height="64">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/hizkiasy?r=nametag">
+                                            <img src="img/instagram.png" alt="" width="60" height="60">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    <br><hr><br>
+                    <form>
+                        <div class="row">
+                            <div class="col-25">
+                                <label>Name</label>
+                                <input type="text" name="nama" id="name" placeholder="Your name.." required />
+                            </div>
+                            <div class="col-25">
+                                <label>E-mail</label>
+                                <input type="text" name="email" id="email" placeholder="Your Email.." required/>
+                            </div>
+                        </div>
+        
+                        <div class="row">                            
+                            <div class="col-50">
+                                <label>Comment</label>
+                                <textarea name="address" rows="5" id="msg" placeholder="Your Comment..." required></textarea>
+                            </div>
+                        </div>
+        
+                        <div style="text-align: center;">
+                            <button type="button" class="btn" onclick="return validateForm()" >Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+		</div>
+        <!-- End container -->        
+	</div>
+	<!-- !container-fluid -->
+    
+    <footer class="footer">
+        <div class="center">
+            <div class="row">
+                <p>
+                    Copyright &copy;2020 All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
